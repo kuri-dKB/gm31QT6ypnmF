@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{1019e805-d3a5-4a20-9a14-21ef715f26d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{6160d382-20b5-448d-82d8-aba0c62f4085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="skydome.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="field.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="skydome.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="pixelShader.hlsl" />
+    <FxCompile Include="vertexShader.hlsl" />
+  </ItemGroup>
+</Project>
