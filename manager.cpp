@@ -4,6 +4,8 @@
 #include "renderer.h"
 #include "input.h"
 #include "scene.h"
+#include "game.h"
+#include "title.h"
 
 //
 CScene* CManager::m_Scene = NULL;
@@ -14,9 +16,12 @@ void CManager::Init()
 	CRenderer::Init();
 	CInput::Init();
 
-	m_Scene = new CScene();
-	m_Scene->Init();
+	//m_Scene = new CScene();
+	//m_Scene = new CGame();
+	//m_Scene->Init();
 
+	// タイトルからスタート
+	SetScene<CTitle>();
 }
 
 void CManager::Uninit()

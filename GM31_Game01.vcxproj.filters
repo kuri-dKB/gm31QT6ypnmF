@@ -59,6 +59,12 @@
     <ClCompile Include="explosion.cpp">
       <Filter>object</Filter>
     </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="field.h">
@@ -108,6 +114,12 @@
     </ClInclude>
     <ClInclude Include="light.h">
       <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>scene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

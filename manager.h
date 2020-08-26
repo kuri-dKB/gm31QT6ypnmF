@@ -12,5 +12,20 @@ public:
 	static void Update();
 	static void Draw();
 
+	template<typename T>
+	static void SetScene()
+	{
+		if (m_Scene != NULL)
+		{// 現在のシーンを削除
+			m_Scene->Uninit();
+			delete m_Scene;
+		}
+
+		// 新しいシーンを入れる
+		T* scene = new T();
+		m_Scene = scene;
+		scene->Init();
+	}
+
 	static CScene* GetScene() { return m_Scene; };
 };
